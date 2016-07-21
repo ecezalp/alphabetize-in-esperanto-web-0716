@@ -1,5 +1,3 @@
-# test 3 fails, will consult instructor
-
 def alphabetize(array)
   esp_string = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_hash = {}
@@ -35,5 +33,3 @@ def alphabetize(array)
   end
   array
 end
-
-["bonan matenon", "bonan vesperon", "bonan nokton"]
