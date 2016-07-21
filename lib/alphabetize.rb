@@ -1,7 +1,7 @@
-# test 3 fails, will consult instructor 
+# test 3 fails, will consult instructor
 
 def alphabetize(array)
-  esp_string = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_string = " abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   esp_hash = {}
   esp_string.chars.each_with_index do |x, i|
     esp_hash[x] = i
@@ -35,3 +35,5 @@ def alphabetize(array)
   end
   array
 end
+
+["bonan matenon", "bonan vesperon", "bonan nokton"]
